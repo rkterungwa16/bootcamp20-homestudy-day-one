@@ -1,0 +1,20 @@
+{
+  "name": "bootcamp20-homestudy-day-one",
+  "version": "0.0.1",
+  "description": "Boot camp XX homestudy exercises",
+  "main": "index.js",
+  "scripts": {
+    "test": "spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rkterungwa16/"
+  },
+  "keywords": [
+    "Data-types",
+    "Get-primes",
+    "OOP"
+  ],
+  "author": "Richard Terungwa Kombol",
+  "license": "ISC"
+}
