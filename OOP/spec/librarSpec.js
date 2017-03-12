@@ -31,4 +31,10 @@ describe('Football Player Class: Create a Parent footballPlayer class and a chil
     var petre = myApp('Petre Cech', 1, 'male',  'Arsenal', cechStats);
     expect(petre.position).toBe('goalkeeper');
   })
+
+  it("should show goalkeeper action", function () {
+    var cechStats = {shotsSaved: 3, percentPenSaved: 20}
+    var petre = myApp('Petre Cech', 1, 'male', 'Arsenal', cechStats);
+    expect(petre.player_action()).toBe('Plays a round ball with both feet and catches ball with hands')
+  })
 })
