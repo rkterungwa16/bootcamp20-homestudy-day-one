@@ -1,6 +1,7 @@
 module.exports = {
 	getPrimes: function (n) {
-		if (Number.isInteger(n) === false) {
+
+		if (Number.isInteger(n) === false || n < 0) {
 			return 'wrong input type';
 		}
 		else {
